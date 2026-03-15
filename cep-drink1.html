@@ -205,18 +205,6 @@ nav.stuck {
   background: linear-gradient(to right, var(--cream) 0%, transparent 20%),
               linear-gradient(to top, rgba(46,26,14,.15) 0%, transparent 50%);
 }
-.hero-float-card {
-  position: absolute; bottom: 3rem; left: -3rem; z-index: 10;
-  background: var(--white); border-radius: 16px;
-  padding: 1.25rem 1.5rem;
-  box-shadow: 0 20px 60px rgba(46,26,14,.15);
-  display: flex; align-items: center; gap: 1rem;
-  animation: fadeUp .7s ease .5s both;
-}
-.float-icon { font-size: 2rem; }
-.float-title { font-family: 'Syne', sans-serif; font-size: .8rem; font-weight: 700; color: var(--brown); }
-.float-sub { font-size: .72rem; color: var(--muted); margin-top: .1rem; }
-.open-dot { display: inline-block; width: 8px; height: 8px; background: #4ade80; border-radius: 50%; margin-right: .3rem; animation: pulse 2s infinite; }
 
 @keyframes imgReveal {
   from { transform: scale(1.12); opacity: 0; }
@@ -603,13 +591,6 @@ footer {
     <div class="hero-img-wrap">
       <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=1200&auto=format&fit=crop&q=80" alt="Cozy café atmosphere at Cep Drink">
       <div class="hero-img-overlay"></div>
-    </div>
-    <div class="hero-float-card">
-      <span class="float-icon">☕</span>
-      <div>
-        <div class="float-title"><span class="open-dot"></span>Open Now</div>
-        <div class="float-sub">Rruga Tish Dahia · Tiranë</div>
-      </div>
     </div>
   </div>
 </section>
